@@ -1,0 +1,15 @@
+{
+  "name": "basit-markating",
+  "version": "1.0.0",
+  "description": "Create a web socket service that listens to a RabbitMQ queue for user-specific notifications, and sends them to the frontend. Use JWT authentication for security. Assume any structure for the notification schema in the queue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravi Kumar Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "socket.io": "^4.5.4"
+  }
+}
